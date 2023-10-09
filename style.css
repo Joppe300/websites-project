@@ -16,18 +16,46 @@ body{
     width: 90%;
 }
 
-nav ul{
+nav ul li{
     display: flex;
+    flex-direction: column;
     justify-content: end;
     padding: 5px 10px;
     list-style-type: none;
 }
 nav ul a{
-    padding: 20px 20px 5px 20px;
     text-decoration: none;
     text-align: center;
     width: 100%;
 }
 nav a:hover{
     background-color: cyan;
+}
+
+.tekst{
+    margin-top: 2rem;
+    align-items: center;
+}
+.tekst h1{
+    align-items: start;
+}
+@media screen and (min-width: 700px){
+    nav ul{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-evenly;
+        padding: 5px 10px;
+        list-style-type: none;
+        flex: 90%;
+    }
+    nav ul a{
+        text-decoration: none;
+        text-align: center;
+        flex:90%;
+        padding: 0px 20px 0px 0px;
+    }
+    
+    nav a:hover{
+        background-color: cyan;
+    }
 }
