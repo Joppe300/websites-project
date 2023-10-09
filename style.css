@@ -1,0 +1,33 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: sans-serif;
+}
+
+.background{
+    background-color: black;
+    display: flex;
+    justify-content: center;
+}
+.container{
+    background-color: lightgray;
+    width: 90%;
+}
+
+nav ul{
+    display: flex;
+    justify-content: end;
+    padding: 5px 10px;
+    list-style-type: none;
+}
+nav ul a{
+    padding: 20px 20px 5px 20px;
+    text-decoration: none;
+    text-align: center;
+    width: 100%;
+}
+nav a:hover{
+    background-color: cyan;
+}
