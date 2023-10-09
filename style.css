@@ -32,9 +32,10 @@ nav a:hover{
     background-color: cyan;
 }
 
-.tekst{
-    margin-top: 2rem;
+.tekst, footer{
+    margin:2rem;
     align-items: center;
+    
 }
 .tekst h1{
     align-items: start;
@@ -46,15 +47,21 @@ nav a:hover{
         justify-content: space-evenly;
         padding: 5px 10px;
         list-style-type: none;
+        align-items: center;
         flex: 90%;
     }
     nav ul a{
         text-decoration: none;
         text-align: center;
         flex:90%;
+        padding: 20px 20px 20px 0px;
+    }
+    #logo{
         padding: 0px 20px 0px 0px;
     }
-    
+    #logo:hover{
+        background-color: inherit;
+    }
     nav a:hover{
         background-color: cyan;
     }
