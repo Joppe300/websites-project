@@ -57,6 +57,24 @@ table img{
     border: 2px solid gray;
     gap: 1rem;
 }
+.contact, .contact p{
+    margin: 1.5rem 1rem;
+}
+.contact ul{
+    margin-top: 2rem;
+    display: grid;
+    grid-template-columns: auto auto;
+    list-style-type: none;
+    text-align: center;
+}
+.contact ul li a{
+    width: 100%;
+    padding: 20px 50px;
+    background-color: rgb(174, 174, 174);
+}
+.contact a:hover{
+    background-color: cyan;
+}
 .tekst, footer{
     margin:0rem 2rem 2rem 2rem;
     align-items: center;
