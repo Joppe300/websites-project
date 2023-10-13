@@ -8,12 +8,12 @@ body{
 }
 
 .background{
-    background-color: black;
+    background-color: #66CDAA;
     display: flex;
     justify-content: center;
 }
 .container{
-    background-color: lightgray;
+    background-color: #7FFFD4;
     width: 90%;
 }
 
@@ -80,6 +80,23 @@ table img{
     align-items: center;
     
 }
+.about{
+    display: grid;
+    grid-template-columns: auto;
+    margin: 2rem;
+    align-items: center;
+    justify-content: center;
+}
+.cv article{
+    margin: 1rem;
+}
+.cv h3, .cv p,.cv li{
+    margin: 0.5rem 0.5rem 0.5rem 1rem;
+}
+.cv h2{
+    color: darkblue;
+}
+
 @media screen and (min-width: 755px){
     nav ul{
         display: flex;
@@ -112,5 +129,19 @@ table img{
         grid-template-columns: auto auto 33%;
         margin: 2rem;
         gap: 2rem;
+    }
+    .about{
+        grid-template-columns: auto auto;
+    }
+    .about figure{
+        margin-right: 2rem;
+    }
+    .cv{
+        display: grid;
+        grid-template-columns: 50% auto;
+        margin: 1rem;
+    }
+    .cv article:nth-child(2){
+        padding: 0rem 2rem;
     }
 }
